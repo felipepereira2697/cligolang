@@ -18,12 +18,12 @@ func main() {
 				return
 			}
 
-			if len(pass) < 6 {
+			if len(pass) < 10 {
 				fmt.Println("Sorry, pass to weak, please provide a new pass")
 				return
 			}
 
-			fmt.Printf("Name: %s\n Pass: %s\n", name, pass)
+			fmt.Printf("Name: %s\nPass: %s\n", name, pass)
 		},
 	}
 
